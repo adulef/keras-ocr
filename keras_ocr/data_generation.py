@@ -263,11 +263,11 @@ def get_fonts(
                 for filepath in font_filepaths
                 if os.path.join(*filepath.split(os.sep)[-2:]) not in smallcaps_fonts
             ]
-    if alphabet != "":
-        font_filepaths = [
-            filepath
-            for filepath in tqdm.tqdm(font_filepaths, desc="Filtering fonts.")
-        ]
+    # if alphabet != "":
+    #     font_filepaths = [
+    #         filepath
+    #         for filepath in tqdm.tqdm(font_filepaths, desc="Filtering fonts.")
+    #     ]
     return font_filepaths
 
 
