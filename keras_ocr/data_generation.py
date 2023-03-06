@@ -232,7 +232,7 @@ def get_fonts(
     if cache_dir is None:
         cache_dir = os.path.expanduser(os.path.join("~", ".keras-ocr"))
     fonts_zip_path = tools.download_and_verify(
-        url="https://github.com/faustomorales/keras-ocr/releases/download/v0.8.4/fonts.zip",
+        url="https://github.com/adulef/keras-ocr/blob/main/fonts/fonts.zip",
         sha256="d4d90c27a9bc4bf8fff1d2c0a00cfb174c7d5d10f60ed29d5f149ef04d45b700",
         filename="fonts.zip",
         cache_dir=cache_dir,
