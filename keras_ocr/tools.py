@@ -523,7 +523,7 @@ def download_and_verify(url, sha256=None, cache_dir=None, verbose=True, filename
     # if not os.path.isfile(filepath) or (sha256 and sha256sum(filepath) != sha256):
         # if verbose:
             # print("Downloading " + filepath)
-    urllib.request.urlretrieve(url, filepath)
+    # urllib.request.urlretrieve(url, filepath)
     # assert sha256 is None or sha256 == sha256sum(
     #     filepath
     # ), "Error occurred verifying sha256."
